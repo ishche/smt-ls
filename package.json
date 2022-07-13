@@ -1,8 +1,17 @@
 {
     "name": "smt-ls",
-    "displayName": "SMT LS",
-    "description": "SMT Language server",
+    "displayName": "SMT Language Support",
+    "description": "SMT Language Support vscode extensions",
     "version": "0.0.1",
+    "author": {
+        "name": "Iurii Shchekochikhin",
+        "email": "amagex@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/ishche/smt-ls",
+        "type": "git"
+    },
+    "homepage": "https://github.com/ishche/smt-ls",
     "engines": {
         "vscode": "^1.69.0"
     },
