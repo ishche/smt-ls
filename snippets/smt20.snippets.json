@@ -1,0 +1,12 @@
+{
+    "Declare constant": {
+        "prefix": "(declare-const",
+        "body": ["(declare-const $1 $2"],
+        "description": "Declare a constant."
+    },
+    "Check sat": {
+        "prefix": "(check-sat",
+        "body": ["(check-sat"],
+        "description": "Check sat."
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "smt-ls",
+    "displayName": "SMT LS",
+    "description": "SMT Language server",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Programming Languages", "Snippets"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "smt20",
+            "extensions": ["z3"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "smt20",
+            "scopeName": "source.smt20",
+            "path": "./syntaxes/smt20.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "smt20",
+            "path": "./snippets/smt20.snippets.json"
+        }]
+    }
+}
