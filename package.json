@@ -7,6 +7,7 @@
         "name": "Iurii Shchekochikhin",
         "email": "amagex@gmail.com"
     },
+    "publisher": "x0a",
     "repository": {
         "url": "https://github.com/ishche/smt-ls",
         "type": "git"
