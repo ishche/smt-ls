@@ -1,7 +1,7 @@
 {
     "name": "smt-ls",
-    "displayName": "SMT Language Support",
-    "description": "SMT Language Support vscode extensions",
+    "displayName": "SMT-LIB Language Support",
+    "description": "SMT-LIB Language Support vscode extensions",
     "version": "0.0.1",
     "author": {
         "name": "Iurii Shchekochikhin",

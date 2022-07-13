@@ -2,26 +2,13 @@
     "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
     "name": "smt20",
     "patterns": [{
-            "include": "#keywords"
-        },
-        {
-            "include": "#strings"
-        }
-    ],
+        "include": "#comments"
+    }],
     "repository": {
-        "keywords": {
+        "comments": {
             "patterns": [{
-                "name": "keyword.control.smt20",
-                "match": "\\b(if|while|for|return)\\b"
-            }]
-        },
-        "strings": {
-            "name": "string.quoted.double.smt20",
-            "begin": "\"",
-            "end": "\"",
-            "patterns": [{
-                "name": "constant.character.escape.smt20",
-                "match": "\\\\."
+                "name": "comment.line.semicolon.smt",
+                "match": ";.*$"
             }]
         }
     },
